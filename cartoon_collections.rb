@@ -17,7 +17,7 @@ def find_the_cheese(array)
   cheese = cheese_types.join(" ")
   if #array.include?(cheese) == true
     array.find(cheese) == true
-    return array.find(cheese)
+    return array.find(cheese).string
   else 
     return nil 
 end
